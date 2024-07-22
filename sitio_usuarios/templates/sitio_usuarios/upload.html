@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h1>Carga masiva de datos mediante  archivo CSV</h1>
+    <form enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Cargar</button>
+    </form>
+</body>
+</html>
